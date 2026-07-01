@@ -1,0 +1,88 @@
+    </form>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Timetable</title>
+</head>
+<body>
+
+    <h2 align="center">College Timetable</h2>
+
+    <table border="1" cellspacing="0" cellpadding="10" align="center">
+
+        <tr>
+            <th>Day</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 12:00</th>
+            <th>12:00 - 1:00</th>
+            <th>1:00 - 2:00</th>
+            <th>2:00 - 3:00</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>Java</td>
+            <td>Python</td>
+            <td>DBMS</td>
+            <td rowspan="5">LUNCH</td>
+            <td>Web Tech</td>
+            <td>Lab</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Java</td>
+            <td>Python</td>
+            <td>DBMS</td>
+            <td colspan="2">Mini Project</td>
+        </tr>
+
+
+
+Code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia in HTML</title>
+</head>
+<body>
+
+    <h2>Multimedia in HTML</h2>
+
+    <h3>Audio Example</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <br><br>
+
+    <h3>Video Example</h3>
+    <video width="400" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+
+    <h3>YouTube Video Example</h3>
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube Video"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+Output
